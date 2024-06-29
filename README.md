@@ -2,9 +2,34 @@
 
 A simple Python wrapper for the Deezer API, allowing easy access to a variety of Deezer's endpoints to fetch data about artists, albums, tracks, playlists, and more.
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Importing and Initializing](#importing-and-initializing)
+  - [Search for an Artist](#search-for-an-artist)
+  - [Get Album Information](#get-album-information)
+  - [Get Editorial Information](#get-editorial-information)
+  - [Get Chart Information](#get-chart-information)
+  - [Get Artist Information](#get-artist-information)
+  - [Get Track Information](#get-track-information)
+  - [Get Radio Stations](#get-radio-stations)
+  - [Get Playlist Information](#get-playlist-information)
+  - [Get Deezer Information](#get-deezer-information)
+  - [Get Genres](#get-genres)
+  - [Get User Information](#get-user-information)
+- [Author and Contact Information](#author-and-contact-information)
+- [Support the Project](#support-the-project)
+
+## Introduction
+
+DeezerAPI is a simple yet powerful Python wrapper for the Deezer API. It allows developers to easily access a wide range of endpoints provided by Deezer, enabling the retrieval of detailed information about artists, albums, tracks, playlists, and more. Whether you're building a music discovery app, analyzing musical trends, or just experimenting with the Deezer API, this module provides a convenient way to interact with Deezer's vast music database.
+
 ## Installation
 
 To install the DeezerAPI module, simply use pip:
+
 
 ```bash
 pip install deezer_api
