@@ -111,6 +111,28 @@ user_info = deezer.get_user("5557228304")
 print(user_info)
 ```
 
+
+
+
+
+## Author and Contact Information
+
+**Name and Author**: Åndry RL  
+**Username**: andryerics  
+**Website**: [andryerics.com](https://www.andryerics.com)  
+**WhatsApp**: [+261347262824](https://wa.me/261347262824)  
+
+## Support the Project
+
+If you find this project useful and would like to support its development, you can buy me a coffee:
+
+- **PayPal**: [andryerica1@gmail.com](https://www.paypal.com/donate?business=andryerica1@gmail.com&item_name=Support+DeezerAPI+Development&currency_code=USD)
+
+Thank you for your support!
+
+
+
+
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
