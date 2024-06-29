@@ -74,11 +74,48 @@ track_info = deezer.get_track("3135556")
 print(track_info)
 ```
 
+### Get Radio Stations
+Fetch information about radio stations:
 
+```python
+radio_info = deezer.get_radio()
+print(radio_info)
+```
+### Get Playlist Information
+Get information about a specific playlist by its ID. For example, to get the playlist with ID "908622995":
 
+```python
+playlist_info = deezer.get_playlist("908622995")
+print(playlist_info)
+```
+### Get Deezer Information
+Fetch general information about Deezer:
 
+```python
+deezer_info = deezer.get_infos()
+print(deezer_info)
+```
+### Get Genres
+Fetch information about genres:
 
+```python
+genres_info = deezer.get_genre()
+print(genres_info)
+```
 
+### Get User Information
+Get information about a specific user by their ID. For example, to get information about the user with ID "5557228304":
+
+```python
+user_info = deezer.get_user("5557228304")
+print(user_info)
+```
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+# Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any changes.
 
 
 
