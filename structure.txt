@@ -1,0 +1,8 @@
+deezer_api/
+├── deezer_api/
+│   ├── __init__.py
+│   ├── deezer.py
+├── setup.py
+├── README.md
+├── LICENSE
+└── MANIFEST.in
