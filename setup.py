@@ -1,5 +1,6 @@
 # setup.py
 
+
 from setuptools import setup, find_packages
 
 setup(
@@ -7,15 +8,16 @@ setup(
     version='0.1.0',
     packages=find_packages(),
     install_requires=[
-        'requests>=2.25.0'
+        'requests',
     ],
     include_package_data=True,
-    author='Andry RL',
-    author_email='andryerics@gmail.com',
-    description='Une bibliothèque pour interagir avec l\'API Deezer',
+    description='A simple Python wrapper for the Deezer API',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/Andryerics/deezer_api',
+    author='Andry RL',
+    author_email='andryerics@gmail.com',
+    license='MIT',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
